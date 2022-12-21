@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useTypedSelector } from "../hooks/useTypedSelector";
 import { MagnifyingGlass } from "react-loader-spinner";
-import { Typography, Grow } from "@mui/material";
+import { Grow, Typography } from "@mui/material";
 import NotFound from "./NotFound";
 import { useParams } from "react-router-dom";
 import { useActions } from "../hooks/useActions";
